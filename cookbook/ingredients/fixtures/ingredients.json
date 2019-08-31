@@ -1,0 +1,36 @@
+[
+  { "model": "ingredients.category", "pk": 1, "fields": { "name": "Dairy" } },
+  { "model": "ingredients.category", "pk": 2, "fields": { "name": "Meat" } },
+  {
+    "model": "ingredients.ingredient",
+    "pk": 1,
+    "fields": { "name": "Eggplant", "notes": "Purple goodness", "category": 1 }
+  },
+  {
+    "model": "ingredients.ingredient",
+    "pk": 2,
+    "fields": {
+      "name": "Soy Milk",
+      "notes": "Comes from soy beans",
+      "category": 1
+    }
+  },
+  {
+    "model": "ingredients.ingredient",
+    "pk": 3,
+    "fields": {
+      "name": "Tofu",
+      "notes": "Much like soy milk, this comes from a soy bean",
+      "category": 2
+    }
+  },
+  {
+    "model": "ingredients.ingredient",
+    "pk": 4,
+    "fields": {
+      "name": "Brocolli",
+      "notes": "Great steamed",
+      "category": 2
+    }
+  }
+]
