@@ -1,17 +1,29 @@
 [
-  { "model": "ingredients.category", "pk": 1, "fields": { "name": "Dairy" } },
-  { "model": "ingredients.category", "pk": 2, "fields": { "name": "Meat" } },
+  {
+    "model": "ingredients.category",
+    "pk": 1,
+    "fields": { "name": "Plant Based Milk" }
+  },
+  {
+    "model": "ingredients.category",
+    "pk": 2,
+    "fields": { "name": "Plant Proteins" }
+  },
   {
     "model": "ingredients.ingredient",
     "pk": 1,
-    "fields": { "name": "Eggplant", "notes": "Purple goodness", "category": 1 }
+    "fields": {
+      "name": "Vegan Cheese",
+      "notes": "Amazing with toast in the morning",
+      "category": 1
+    }
   },
   {
     "model": "ingredients.ingredient",
     "pk": 2,
     "fields": {
-      "name": "Soy Milk",
-      "notes": "Comes from soy beans",
+      "name": "Coconut Yoghurt",
+      "notes": "Nothing beats it with some fruit",
       "category": 1
     }
   },
