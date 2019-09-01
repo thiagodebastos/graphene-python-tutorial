@@ -6,4 +6,7 @@ class Query(Query, ObjectType):
     # as we begin to add more apps to our project
     pass
 
+class Mutation(ObjectType):
+    pass
+
 schema = Schema(query=Query)

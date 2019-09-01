@@ -1,5 +1,13 @@
 [
   {
+    "model": "ingredients.recipe",
+    "pk": 1,
+    "fields": {
+      "name": "Melted Cheese with Tofu",
+      "ingredients": [1, 3]
+    }
+  },
+  {
     "model": "ingredients.category",
     "pk": 1,
     "fields": { "name": "Plant Based Milk" }
